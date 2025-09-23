@@ -1,6 +1,6 @@
 import Foundation
 
-// Базавая модель сообщения
+// Простая модель сообщения
 struct Message: Identifiable, Codable {
     let id: String
     let text: String
