@@ -1,7 +1,16 @@
-//
-//  Message.swift
-//  SimpleP2PChat
-//
-//  Created by Сергей Ерёмин on 23.09.2025.
-//
+import Foundation
 
+// Базавая модель сообщения
+struct Message: Identifiable, Codable {
+    let id: String
+    let text: String
+    let isFromMe: Bool
+    let timestamp: Date
+    
+    init(text: String, isFromMe: Bool) {
+        self.id = UUID().uuidString
+        self.text = text
+        self.isFromMe = isFromMe
+        self.timestamp = Date()
+    }
+}
