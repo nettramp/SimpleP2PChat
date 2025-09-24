@@ -2,7 +2,7 @@
 📱 Simple P2P Chat
 Общайтесь напрямую, без серверов. Просто, безопасно, по Wi-Fi.
 
-https://img.shields.io/badge/Swift-5.9-orange?style=flat&logo=swift https://img.shields.io/badge/Platform-iOS_17+-blue https://img.shields.io/badge/License-MIT-lightgrey
+<img src="https://img.shields.io/badge/Swift-6.2-orange?style=flat&logo=swift" alt="swift"> <img src="https://img.shields.io/badge/Platform-iOS_17+-blue https://img.shields.io/badge/License-MIT-lightgrey" alt="MIT">
 
 Простой и элегантный мессенджер, который устанавливает прямое Peer-to-Peer (P2P) соединение между устройствами iPhone по локальной сети Wi-Fi. Ваши сообщения остаются между вами.
 
