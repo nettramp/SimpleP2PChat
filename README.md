@@ -86,7 +86,7 @@ git clone https://github.com/nettramp/SimpleP2PChat/simple-p2p-chat.git
 Этот проект распространяется под лицензией MIT. См. файл LICENSE для получения дополнительной информации.
 
 🤝 Контакты
-Ваше имя или название команды - @your_twitter - email@example.com
+nettrampl@yandex.ru
 
 Ссылка на проект: https://github.com/nettramp/SimpleP2PChat/
 
