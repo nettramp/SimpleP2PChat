@@ -2,7 +2,9 @@
 📱 Simple P2P Chat
 Общайтесь напрямую, без серверов. Просто, безопасно, по Wi-Fi.
 
-<img src="https://img.shields.io/badge/Swift-6.2-orange?style=flat&logo=swift" alt="swift"> <img src="https://img.shields.io/badge/Platform-iOS_17+-blue https://img.shields.io/badge/License-MIT-lightgrey" alt="MIT">
+<img src="https://img.shields.io/badge/Swift-6.2-orange?style=flat&logo=swift" alt="swift"> 
+<img src="https://img.shields.io/badge/Platform-iOS_26+-blue " alt="ios">
+<img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="mit">
 
 Простой и элегантный мессенджер, который устанавливает прямое Peer-to-Peer (P2P) соединение между устройствами iPhone по локальной сети Wi-Fi. Ваши сообщения остаются между вами.
 
@@ -16,8 +18,13 @@
 Общайтесь! – Соединение установлено, можно обмениваться сообщениями.
 
 🖼️ Скриншоты приложения
-Экран приветствия	Ваш QR-код для подключения	Живой чат
-<img src="Simulator Screenshot - iPhone 17 Pro - 2025-09-24 at 21.23.55.png" width="300" />	<img src="Simulator Screenshot - iPhone 17 Pro - 2025-09-23 at 21.41.28.png" width="300" />	<img src="Simulator Screenshot - iPhone 17 Pro - 2025-09-24 at 21.23.35 2.png" width="300" />
+Экран приветствия
+<img src="scr0.png" width="300" />
+Ваш QR-код для подключения
+<img src="scr1.png" width="300" />
+Живой чат
+<img src="scr2.png" width="300" />
+
 Выберите действие: создать чат или присоединиться к существующему.	Покажите этот код другу для быстрого подключения.	Чистый интерфейс, история сообщений с временем.
 🚀 Возможности
 Прямое соединение (P2P): Сообщения передаются напрямую между устройствами по Wi-Fi.
@@ -45,7 +52,7 @@ P2P-фреймворк: MultipeerConnectivity
 Клонируйте репозиторий:
 
 bash
-git clone https://github.com/your-username/simple-p2p-chat.git
+git clone https://github.com/nettramp/SimpleP2PChat/simple-p2p-chat.git
 Откройте проект SimpleP2PChat.xcodeproj в Xcode 15 или новее.
 
 Выберите устройство или симулятор (на симуляторе тестирование P2P ограничено).
@@ -84,7 +91,7 @@ git clone https://github.com/your-username/simple-p2p-chat.git
 🤝 Контакты
 Ваше имя или название команды - @your_twitter - email@example.com
 
-Ссылка на проект: https://github.com/your-username/simple-p2p-chat
+Ссылка на проект: https://github.com/nettramp/SimpleP2PChat/
 
 Сделано с ❤️ на SwiftUI.
 
