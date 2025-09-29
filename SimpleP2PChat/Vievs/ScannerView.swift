@@ -1,5 +1,6 @@
 import SwiftUI
 import AVFoundation
+import Combine
 
 struct ScannerView: View {
     let chatManager: ChatManager

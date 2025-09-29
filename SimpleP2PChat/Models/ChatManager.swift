@@ -1,3 +1,4 @@
+import Foundation
 import MultipeerConnectivity
 import SwiftUI
 import Combine
@@ -130,7 +131,7 @@ extension ChatManager: MCSessionDelegate {
     func session(_ session: MCSession, didFinishReceivingResourceWithName resourceName: String, fromPeer peerID: MCPeerID, at localURL: URL?, withError error: Error?) {}
 }
 
-// MARK: - MCNearbyServiceAdvertiserDelegate
+
 extension ChatManager: MCNearbyServiceAdvertiserDelegate {
     func advertiser(_ advertiser: MCNearbyServiceAdvertiser, didReceiveInvitationFromPeer peerID: MCPeerID, withContext context: Data?, invitationHandler: @escaping (Bool, MCSession?) -> Void) {
         // Автоматически принимаем приглашение
@@ -138,7 +139,7 @@ extension ChatManager: MCNearbyServiceAdvertiserDelegate {
     }
 }
 
-// MARK: - MCNearbyServiceBrowserDelegate
+
 extension ChatManager: MCNearbyServiceBrowserDelegate {
     func browser(_ browser: MCNearbyServiceBrowser, foundPeer peerID: MCPeerID, withDiscoveryInfo info: [String : String]?) {
         // Автоматически подключаемся к найденному устройству
