@@ -13,6 +13,12 @@ class ChatManager: NSObject, ObservableObject {
     @Published var messages: [Message] = []
     @Published var isConnected = false
     @Published var connectedPeerName = ""
+    @Published var errorMessage: String?
+    @Published var connectionState: ConnectionState = .disconnected
+
+    enum ConnectionState {
+        case disconnected, hosting, joining, connected
+    }
     
     override init() {
         // Используем имя устройства как идентификатор

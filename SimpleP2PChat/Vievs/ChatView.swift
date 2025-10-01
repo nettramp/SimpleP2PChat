@@ -92,3 +92,17 @@ struct MessageBubble: View {
         }
     }
 }
+
+// Превью для просмотра проги без запуска на виртуалке
+
+#Preview {
+    let previewManager = ChatManager()
+    previewManager.messages = [
+        Message(text: "Привет! Как дела?", isFromMe: false),
+        Message(text: "Все хорошо, спасибо! А у тебя?", isFromMe: true),
+        Message(text: "Тоже отлично!", isFromMe: false)
+    ]
+    previewManager.isConnected = true
+    previewManager.connectedPeerName = "Иван"
+    return ChatView(chatManager: previewManager)
+}
